@@ -4,10 +4,14 @@
   "deno.unstable": false,
   "deno.config": "./deno.json",
   "editor.defaultFormatter": "denoland.vscode-deno",
+  "editor.tabSize": 4,
+  "editor.insertSpaces": true,
   "[typescript]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.tabSize": 4
   },
   "[typescriptreact]": {
-    "editor.defaultFormatter": "denoland.vscode-deno"
+    "editor.defaultFormatter": "denoland.vscode-deno",
+    "editor.tabSize": 4
   }
 }
