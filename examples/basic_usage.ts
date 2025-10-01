@@ -14,5 +14,5 @@ console.log(`Library version: ${VERSION}`);
 // Example 3: Multiple greetings
 const names = ["Alice", "Bob", "Charlie"];
 names.forEach((name) => {
-  console.log(greet(name));
+    console.log(greet(name));
 });
