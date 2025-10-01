@@ -1,0 +1,35 @@
+{
+  "name": "@dinhhuy2010/wmdb-ts",
+  "version": "0.1.0",
+  "exports": "./src/mod.ts",
+  "tasks": {
+    "dev": "deno run --watch src/mod.ts",
+    "test": "deno test --allow-all",
+    "fmt": "deno fmt",
+    "lint": "deno lint",
+    "check": "deno check src/mod.ts"
+  },
+  "fmt": {
+    "useTabs": false,
+    "lineWidth": 80,
+    "indentWidth": 2,
+    "semiColons": true,
+    "singleQuote": false,
+    "proseWrap": "preserve",
+    "include": ["src/"]
+  },
+  "lint": {
+    "include": ["src/"],
+    "rules": {
+      "tags": ["recommended"]
+    }
+  },
+  "test": {
+    "include": ["src/"]
+  },
+  "compilerOptions": {
+    "strict": true,
+    "allowJs": false,
+    "lib": ["deno.window"]
+  }
+}
