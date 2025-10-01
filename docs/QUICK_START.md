@@ -31,14 +31,6 @@ scoop install deno
 
 ## Using wmdb-ts
 
-### Import from JSR (when published)
-
-```typescript
-import { greet } from "jsr:@dinhhuy2010/wmdb-ts";
-
-console.log(greet("World"));
-```
-
 ### Import from GitHub
 
 ```typescript
@@ -91,4 +83,3 @@ deno install script.ts
 
 - [Deno Manual](https://deno.land/manual)
 - [Deno Standard Library](https://deno.land/std)
-- [JSR (JavaScript Registry)](https://jsr.io/)

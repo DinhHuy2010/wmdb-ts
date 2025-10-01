@@ -8,12 +8,9 @@ A TypeScript library for Deno.
 
 ## Installation
 
-For use in Deno projects, import directly from this repository or JSR:
+For use in Deno projects, import directly from this repository:
 
 ```typescript
-// From JSR (when published)
-import { greet } from "jsr:@dinhhuy2010/wmdb-ts";
-
 // From GitHub
 import { greet } from "https://raw.githubusercontent.com/DinhHuy2010/wmdb-ts/main/src/mod.ts";
 ```

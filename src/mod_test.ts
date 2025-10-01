@@ -1,4 +1,4 @@
-import { assertEquals } from "jsr:@std/assert@1";
+import { assertEquals } from "https://deno.land/std@0.224.0/assert/mod.ts";
 import { greet, VERSION } from "./mod.ts";
 
 Deno.test("greet function returns correct greeting", () => {
