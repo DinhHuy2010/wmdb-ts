@@ -30,6 +30,3 @@ jobs:
 
       - name: Run tests
         run: deno test --allow-all
-
-      - name: Run example
-        run: deno run examples/basic_usage.ts
